@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "left_rows": 3,
+    "right_rows": 3,
+    "matched": 1,
+    "differences": 3
+  },
+  "changes": [
+    {
+      "key": "002",
+      "status": "changed",
+      "fields": {
+        "amount": {
+          "left": "25.00",
+          "right": "30.00"
+        }
+      }
+    },
+    {
+      "key": "003",
+      "status": "left_only",
+      "left": {
+        "id": "003",
+        "customer": "Example Gamma",
+        "amount": "40.00"
+      }
+    },
+    {
+      "key": "004",
+      "status": "right_only",
+      "right": {
+        "id": "004",
+        "customer": "Example Delta",
+        "amount": "70.00"
+      }
+    }
+  ]
+}
